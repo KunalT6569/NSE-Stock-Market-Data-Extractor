@@ -13,4 +13,5 @@ async function exec() {
     const data = await getStocksData('SBIN');
     console.log(data);
 }
+
 exec();
